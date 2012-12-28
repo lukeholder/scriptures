@@ -22,6 +22,12 @@ Or install it yourself as:
 
     $ gem install scriptures
 
+## Dependancies
+
+Needs sqlite engine installed. My preference on OSX is to install through homebrew with:
+
+    $ brew install sqlite
+
 ## Usage
 
 TODO: API is still in progress
