@@ -1,6 +1,12 @@
 # Scriptures
 
-TODO: Write a gem description
+This is a self contained copy of the LDS standard works as a ruby gem.
+
+## Why?
+
+Because I can.
+Thinking about making a scriptures REST services out of it.
+Maybe I am looking for a job at tech.lds.org? HAHA.
 
 ## Installation
 
@@ -18,7 +24,7 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+TODO: API is still in progress
 
 ## Contributing
 
