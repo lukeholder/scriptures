@@ -28,10 +28,19 @@ Needs sqlite engine installed. My preference on OSX is to install through homebr
 
     $ brew install sqlite
 
-## Usage
+## Usage Examples
 
     require 'scriptures'
+    
     puts Scriptures::Verse.all(:scripture.like => "%faith%").first.scripture
+    
+    puts Scripures.search("faith").count
+
+## TODO
+
+* Make search improvements.
+* Improve Readme and describe API
+
 
 ## Contributing
 
