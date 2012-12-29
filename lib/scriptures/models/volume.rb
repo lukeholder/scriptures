@@ -28,6 +28,5 @@ module Scriptures
     before :update do |i|
        throw :halt
     end
-
   end
 end
