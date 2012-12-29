@@ -1,7 +1,11 @@
 require 'spec_helper'
 
+# I made the decision to use the live sqlite db for tests as they are apart
+# of the actual gem and testing their values seemed to make sense. Why
+# mock the actual data? Suggestions: lukemh@gmail.com
+
 describe Scriptures::Volume do
-    it "should connect to the data source and return a volume's abbreviation" do
+    it "should return a volume's abbreviation" do
       Scriptures::Volume.first.abbreviation.should eq("OT")
     end
     it "should return total number of books in a volume" do
@@ -11,7 +15,7 @@ describe Scriptures::Volume do
 end
 
 describe Scriptures::Book do
-    it "should connect to the data source and return a book proper_title" do
+    it "should return a book proper_title" do
       Scriptures::Book.first.proper_title.should eq("The First Book of Moses called Genesis")
     end
 
@@ -24,7 +28,7 @@ describe Scriptures::Book do
 end
 
 describe Scriptures::Chapter do
-    it "should connect to the data source and return a chapters id" do
+    it "should return a chapters id" do
       Scriptures::Chapter.first.id.should eq(1)
     end
 
@@ -38,7 +42,7 @@ end
 
 
 describe Scriptures::Verse do
-    it "should connect to the data source and return a verse" do
+    it "should return a verse" do
       Scriptures::Verse.first.scripture.should eq("IN the beginning God created the heaven and the earth.")
     end
 
