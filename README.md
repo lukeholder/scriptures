@@ -30,7 +30,8 @@ Needs sqlite engine installed. My preference on OSX is to install through homebr
 
 ## Usage
 
-TODO: API is still in progress
+    require 'scriptures'
+    puts Scriptures::Verse.all(:scripture.like => "%faith%").first.scripture
 
 ## Contributing
 
