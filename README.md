@@ -40,6 +40,8 @@ Needs sqlite engine installed. My preference on OSX is to install through homebr
 
 * Make search improvements.
 * Improve Readme and describe API
+* Maybe make some built in scopes (scripture mastery list etc)
+* Eventually enable API for highlighting, notes and CLI
 
 
 ## Contributing
