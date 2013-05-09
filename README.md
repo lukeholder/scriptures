@@ -1,12 +1,12 @@
 # Scriptures
+[![Code Climate](https://codeclimate.com/github/lukeholder/scriptures.png)](https://codeclimate.com/github/lukeholder/scriptures)
 
-This is a self contained copy of the LDS standard works as a ruby gem.
+Scriptures is a self contained copy of the LDS standard works as a ruby gem.
 
 ## Why?
 
-Because I can.
 Thinking about making a scriptures REST services out of it.
-Maybe I am looking for a job at tech.lds.org? HAHA.
+Maybe I am looking for a job at tech.lds.org? ah, nope.
 
 ## Installation
 
