@@ -28,10 +28,18 @@ Needs sqlite engine installed. My preference on OSX is to install through homebr
 
     $ brew install sqlite
 
+## Info
+
+The Scriptures Gem is basically a wrapper over Datamapper Models with the removal of
+updates and db writes. All datamapper selectors are available and the models
+are related. The Models are `Verse` , `Chapter` , `Book` and `Volume` which are related
+the way you would expect.
+
+
 ## Usage Examples
 
     require 'scriptures'
-    
+
     puts Scriptures::Verse.all(:scripture.like => "%faith%").first.scripture
     
     puts Scripures.search("faith").count
