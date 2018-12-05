@@ -2,7 +2,7 @@ require 'spec_helper'
 
 # I made the decision to use the live sqlite db for tests as they are apart
 # of the actual gem and testing their values seemed to make sense. Why
-# mock the actual data? Suggestions: lukemh@gmail.com
+# mock the actual data?
 
 describe Scriptures::Volume do
     it "should return a volume's abbreviation" do
