@@ -1,5 +1,5 @@
 # Scriptures
-[![Code Climate](https://codeclimate.com/github/lukeholder/scriptures.png)](https://codeclimate.com/github/lukeholder/scriptures)
+![Alt](https://repobeats.axiom.co/api/embed/4b82e1f13133716e7e564ac552818920d9a23b6d.svg "Repobeats analytics image")
 
 Scriptures is a self contained copy of the LDS standard works as a ruby gem.
 
